@@ -9,13 +9,13 @@ This toolkit streamlines the AI project development process by providing:
 1. **LLM-Powered Documentation Generation** - Templates and prompts for generating comprehensive PRDs, architecture diagrams, and Docker configurations
 2. **GitHub Project Management** - Step-by-step guide for setting up and managing GitHub repositories
 3. **AI-Assisted Development** - Guide for using Cursor with the @ tool to reference documentation during implementation
-4. **Crypto Payment Integration** - Tools for integrating Fleet SDK to enable Ergo blockchain payments via Nautilus wallet
+4. **Optional Blockchain Integration** - Tools for integrating with the Ergo blockchain ecosystem via Fleet SDK
 
 ## 📚 Contents
 
 ### System Prompts for LLMs
 - **`Comprehensive AI Project Initialization System Prompt`** - A unified prompt for generating PRDs, diagrams, and Docker configurations
-- **`Fleet SDK Crypto Payment System Prompt`** - Extended prompt for blockchain payment integration
+- **`Ergo Blockchain Integration System Prompt`** - Extended prompt for optional Ergo blockchain integration with Fleet SDK
 
 ### Guides
 - **`Cursor Guide`** - How to use Cursor with the @ tool to reference your PRD during development
@@ -29,10 +29,11 @@ This toolkit streamlines the AI project development process by providing:
 
 ### Step 1: Generate Project Documentation
 
-1. Copy the `Comprehensive AI Project Initialization System Prompt` or the `Fleet SDK Crypto Payment System Prompt` if your project includes blockchain payments
+1. Copy the `Comprehensive AI Project Initialization System Prompt` or the `Ergo Blockchain Integration System Prompt` if your project includes blockchain functionality
 2. Replace the placeholder sections with your specific project details
-3. Submit to your preferred LLM (Claude, GPT-4, etc.)
-4. Save the generated PRD, diagrams, and Docker configurations
+3. For the Ergo prompt, select which blockchain integration options you want (or none)
+4. Submit to your preferred LLM (Claude, GPT-4, etc.)
+5. Save the generated PRD, diagrams, and Docker configurations
 
 ### Step 2: Set Up GitHub Repository
 
@@ -52,8 +53,8 @@ This toolkit streamlines the AI project development process by providing:
 
 1. **Project Inception**
    - Define project goals and requirements
-   - Use the system prompt to generate comprehensive documentation
-   - For crypto payment projects, use the Fleet SDK prompt
+   - Use the appropriate system prompt to generate comprehensive documentation
+   - For projects with blockchain needs, select desired Ergo integration options
 
 2. **Project Setup**
    - Create GitHub repository with appropriate structure
@@ -64,7 +65,7 @@ This toolkit streamlines the AI project development process by providing:
    - Use Cursor with @ tool to reference PRD
    - Implement features according to specifications
    - Create pull requests and track progress
-   - For crypto projects, implement Fleet SDK integration
+   - If applicable, implement Ergo blockchain integration
 
 4. **Deployment**
    - Use generated Docker configurations
@@ -87,14 +88,18 @@ The system prompt generates:
 - Docker Compose configurations for local development
 - Nginx configurations for production deployment
 
-## 💰 Cryptocurrency Payment (Fleet SDK)
+## 🔗 Ergo Blockchain Integration (Optional)
 
-The Fleet SDK integration prompt provides:
-- Ergo blockchain integration specifications
-- Nautilus wallet connection workflows
-- Transaction creation and submission process
-- Payment user experience design
-- Security considerations for crypto transactions
+The Ergo Blockchain Integration System Prompt provides:
+- Fleet SDK implementation specifications
+- Ergo node API interaction via the official REST API
+- Multiple integration options:
+  - Cryptocurrency payment processing via Nautilus wallet
+  - Smart contract automation
+  - Data verification and timestamping
+  - Token creation for loyalty or rewards
+- Security considerations for blockchain interactions
+- Option to skip blockchain functionality entirely
 
 ## 🔄 Extensibility
 
@@ -102,7 +107,7 @@ This toolkit is designed to be extensible:
 - Update the system prompts for different project types
 - Modify the GitHub templates for your team's workflow
 - Customize the Docker configurations for different tech stacks
-- Add additional blockchain protocols beyond Ergo if needed
+- Choose which (if any) blockchain features to implement
 
 ## 📝 Contributing
 
