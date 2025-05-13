@@ -31,13 +31,6 @@ The complete API documentation can be accessed at:
 https://api.ergoplatform.com/api/v1/docs/
 ```
 
-### Node API
-
-For direct interaction with the Ergo blockchain node:
-```
-https://node.ergoplatform.com/
-```
-
 ## Documentation Resources for Cursor
 
 Adding these resources to Cursor will enhance your development experience. Here's how to add them and when to use each resource:
