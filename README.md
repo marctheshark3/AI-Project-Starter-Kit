@@ -14,23 +14,26 @@ This toolkit streamlines the AI project development process by providing:
 ## 📚 Contents
 
 ### System Prompts for LLMs
-- **`Comprehensive AI Project Initialization System Prompt`** - A unified prompt for generating PRDs, diagrams, and Docker configurations
-- **`Ergo Blockchain Integration System Prompt`** - Extended prompt for optional Ergo blockchain integration with Fleet SDK
+- **[Comprehensive AI Project Initialization System Prompt](system-prompt.md)** - A unified prompt for generating PRDs, diagrams, and Docker configurations
+- **[Ergo Blockchain Integration System Prompt](ergo-blockchain-system-prompt.md)** - Extended prompt for optional Ergo blockchain integration with Fleet SDK
+- **[Lovable.dev System Prompt](lovable/system-prompt.md)** - Template for generating web applications with Lovable.dev
+- **[Bolt.new System Prompt](bolt/system-prompt)** - Template for generating web applications with Bolt.new
+- **[Lovable.dev Ergo Integration Prompt](lovable/ergo-system-prompt.md)** - Specialized template for Ergo blockchain apps with Lovable.dev
+- **[Bolt.new Ergo Integration Prompt](bolt/ergo-system-prompt)** - Specialized template for Ergo blockchain apps with Bolt.new
 
 ### Guides
-- **`Cursor Guide`** - How to use Cursor with the @ tool to reference your PRD during development
-- **`GitHub Setup Guide`** - Step-by-step instructions for setting up GitHub repositories and project boards
-- **`AI Project Starter Guide`** - Complete workflow from ideation to deployment
-- **`Ergo Blockchain API Guide`** - Documentation resources and integration patterns for Ergo blockchain development
+- **[Cursor Guide](cursor/Cursor-Guide.md)** - How to use Cursor with the @ tool to reference your PRD during development
+- **[GitHub Setup Guide](github/github-guide.md)** - Step-by-step instructions for setting up GitHub repositories and project boards
+- **[Ergo Blockchain API Guide](cursor/Ergo-Blockchain-API-Guide-for-Cursormd)** - Documentation resources and integration patterns for Ergo blockchain development
 
 ### Visual Resources
-- **`AI Project Workflow Diagrams`** - Mermaid diagrams illustrating project components and workflows
+- **AI Project Workflow Diagrams** - Mermaid diagrams included in the system prompts illustrating project components and workflows
 
 ## 🛠️ How to Use This Toolkit
 
 ### Step 1: Generate Project Documentation
 
-1. Copy the `Comprehensive AI Project Initialization System Prompt` or the `Ergo Blockchain Integration System Prompt` if your project includes blockchain functionality
+1. Copy the [Comprehensive AI Project Initialization System Prompt](system-prompt.md) or the [Ergo Blockchain Integration System Prompt](ergo-blockchain-system-prompt.md) if your project includes blockchain functionality
 2. Replace the placeholder sections with your specific project details
 3. For the Ergo prompt, select which blockchain integration options you want (or none)
 4. Submit to your preferred LLM (Claude, GPT-4, etc.)
@@ -38,16 +41,16 @@ This toolkit streamlines the AI project development process by providing:
 
 ### Step 2: Set Up GitHub Repository
 
-1. Follow the `GitHub Setup Guide` to create and configure your repository
+1. Follow the [GitHub Setup Guide](github/github-guide.md) to create and configure your repository
 2. Create a project board with appropriate columns
 3. Set up issue templates and branch protection
 4. Add your generated documentation to the repository
 
 ### Step 3: Set Up Cursor with Documentation
 
-1. Install Cursor following the instructions in the `Cursor Guide`
+1. Install Cursor following the instructions in the [Cursor Guide](cursor/Cursor-Guide.md)
 2. Import your project documentation
-3. Add recommended documentation resources from the `Ergo Blockchain API Guide` if using blockchain functionality
+3. Add recommended documentation resources from the [Ergo Blockchain API Guide](cursor/Ergo-Blockchain-API-Guide-for-Cursormd) if using blockchain functionality
 4. Use the @ tool to reference documentation during development
 
 ### Step 4: Develop and Deploy
@@ -98,7 +101,7 @@ The system prompt generates:
 
 ## 🔗 Ergo Blockchain Integration (Optional)
 
-The Ergo Blockchain Integration System Prompt provides:
+The [Ergo Blockchain Integration System Prompt](ergo-blockchain-system-prompt.md) provides:
 - Fleet SDK implementation specifications
 - Ergo node API interaction via the official REST API
 - Multiple integration options:
@@ -109,7 +112,7 @@ The Ergo Blockchain Integration System Prompt provides:
 - Security considerations for blockchain interactions
 - Option to skip blockchain functionality entirely
 
-The Ergo Blockchain API Guide offers:
+The [Ergo Blockchain API Guide](cursor/Ergo-Blockchain-API-Guide-for-Cursormd) offers:
 - Documentation resources to add to Cursor
 - Common API endpoints reference
 - Example integration patterns
@@ -130,7 +133,7 @@ Feel free to fork this repository and customize it for your specific needs. Pull
 
 ## 📜 License
 
-This toolkit is provided under the MIT License - see the LICENSE file for details.
+This toolkit is provided under the [MIT License](LICENSE) - see the LICENSE file for details.
 
 ---
 

@@ -1,0 +1,122 @@
+# Bolt.new Ergo Blockchain Integration Prompt
+
+This specialized prompt helps you generate a web application with Bolt.new that integrates with the Ergo blockchain using Fleet SDK and Nautilus wallet.
+
+```
+Create a React application with Vite that integrates with the Ergo blockchain using Fleet SDK and Nautilus wallet. The application should be a [REPLACE WITH: type of application, e.g., "token swap interface", "NFT gallery", "decentralized marketplace", etc.].
+
+## Technical Stack
+- Framework: React with Vite
+- Styling: Tailwind CSS
+- State Management: React Context API
+- Routing: React Router
+- Blockchain SDK: @fleet-sdk/core, @fleet-sdk/wallet
+- Additional Libraries: react-hot-toast for notifications
+
+## Application Structure
+Create a well-organized project with the following structure:
+- /src
+  - /components
+    - /blockchain - Components for blockchain interactions
+    - /ui - Reusable UI components
+    - /pages - Main page components
+  - /contexts - React context providers
+  - /hooks - Custom hooks for blockchain operations
+  - /utils - Utility functions
+  - /types - TypeScript type definitions
+  - App.tsx - Main application component
+  - main.tsx - Entry point
+
+## Core Features
+
+### Wallet Connection
+Implement a wallet connection system that:
+- Detects if Nautilus wallet is installed
+- Connects to the wallet using the EIP-12 dApp connector standard
+- Stores connection state in React context
+- Handles disconnection and reconnection
+- Shows proper error messages if wallet is not found
+
+### Blockchain Integration
+Implement the following blockchain functionality:
+- Fetch and display wallet balances (ERG and tokens)
+- Build and submit transactions using Fleet SDK
+- Handle transaction signing through Nautilus wallet
+- Monitor transaction status
+- Display transaction history
+- Implement proper error handling for blockchain operations
+
+### User Interface
+Create a clean, responsive UI with:
+- Header with wallet connection button showing connection status
+- Main dashboard displaying wallet balances and assets
+- [REPLACE WITH: specific UI features needed for your application]
+- Transaction history section
+- Loading indicators for blockchain operations
+- Error and success notifications
+
+### Specific Application Features
+[REPLACE WITH: detailed description of the specific features of your application, such as token swapping functionality, NFT minting capabilities, etc.]
+
+## Implementation Details
+
+### Wallet Connection Component
+```jsx
+// Create a WalletConnect component that:
+// 1. Checks if Nautilus is available in the window.ergoConnector object
+// 2. Provides connect/disconnect buttons
+// 3. Displays the connected address when connected
+// 4. Shows proper error states
+```
+
+### Fleet SDK Integration
+```jsx
+// Implement the following Fleet SDK functions:
+// 1. Function to fetch wallet balance
+// 2. Function to build transactions using TransactionBuilder
+// 3. Function to sign transactions with the wallet
+// 4. Function to submit transactions to the blockchain
+```
+
+### Error Handling
+Implement comprehensive error handling for:
+- Wallet not installed scenarios
+- Connection failures
+- Transaction building errors
+- Signing rejections by user
+- Network failures during submission
+- Blockchain-specific errors
+
+### Data Management
+- Store connected wallet state in localStorage for persistence
+- Cache token information for better performance
+- Keep transaction history for reference
+
+## Additional Requirements
+- Implement proper loading states for all blockchain operations
+- Add thorough error handling with user-friendly messages
+- Ensure responsive design works on mobile devices
+- Add dark mode support
+- Include testnet/mainnet toggle (defaulting to testnet for safety)
+
+Please create a complete, functional application that provides a seamless experience for interacting with the Ergo blockchain. The code should be clean, well-documented, and follow React best practices.
+```
+
+## How to Use This Prompt with Bolt.new
+
+1. **Copy the entire prompt**
+2. **Replace all [REPLACE WITH: ...] sections** with your specific requirements
+3. **Paste the completed prompt** into Bolt.new
+4. **Use the in-browser IDE** to make any necessary adjustments to the generated code
+
+## Tips for Effective Bolt.new Ergo Integration
+
+1. **Start with a New Project**: Begin with a fresh project for blockchain integration
+2. **Be Specific About Packages**: Mention exact npm package names and versions
+3. **Ask for Commented Code**: Request detailed comments to understand the blockchain integration
+4. **Use the "diffs" Feature**: For iterative changes, use Bolt's diffs feature to save tokens
+5. **Test Integration**: Have the Nautilus wallet extension installed to test the connection
+6. **Request Security Best Practices**: Ask for security measures against common blockchain vulnerabilities
+7. **Develop on Testnet**: Always develop using Ergo's testnet before moving to mainnet
+
+This specialized prompt helps you create blockchain applications with Bolt.new by providing the specific structure and code requirements needed for Ergo blockchain integration. The unique advantage of Bolt.new is that you can directly edit and refine the generated code in the browser.

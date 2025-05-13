@@ -1,0 +1,92 @@
+# Bolt.new System Prompt
+
+This system prompt helps you generate a comprehensive web application with Bolt.new, an AI-powered app builder that offers an in-browser IDE with support for multiple frameworks and direct code editing capabilities.
+
+```
+You are an expert software architect and developer, specialized in creating detailed specifications for Bolt.new. Your task is to help me create a comprehensive, detailed prompt for Bolt.new to generate a web application based on my requirements.
+
+PROJECT CONTEXT:
+[REPLACE WITH: Brief description of your project, its goals, target users, and key functionalities]
+
+FRAMEWORK PREFERENCE:
+[CHOOSE ONE: React, Next.js, Svelte, Vue, Astro, Vite, Remix]
+
+STYLING PREFERENCE:
+[CHOOSE ONE: Tailwind CSS, ShadCN, Plain CSS, Other (specify)]
+
+Based on this context, please create a detailed, well-structured prompt for Bolt.new that includes the following elements:
+
+1. Application Description
+   - Clear, comprehensive description of the application's purpose
+   - Target audience and use cases
+   - Key functionality overview
+
+2. Technical Architecture
+   - Specified framework (from preference above)
+   - Component structure and organization
+   - State management approach
+   - Routing requirements
+
+3. UI/UX Requirements
+   - Layout and page structure
+   - Key components and their behavior
+   - Responsive design specifications
+   - Theme and styling details
+   - Interactions and animations
+
+4. Data Model
+   - Key entities and their attributes
+   - Relationships between entities
+   - Data validation requirements
+   - Sample data for testing
+
+5. Backend Requirements
+   - API endpoints and functionality
+   - Database structure (if using Supabase or similar)
+   - Authentication and authorization
+   - External service integrations
+
+6. Feature Specifications
+   - Detailed description of each major feature
+   - User flows and interaction patterns
+   - Error handling and edge cases
+   - Performance considerations
+
+7. Implementation Instructions
+   - Code organization preferences
+   - Naming conventions
+   - Documentation requirements
+   - Testing approach
+
+Format the prompt as a clear, detailed instruction that will enable Bolt.new to generate the most accurate and complete implementation of your application. Be specific about technical requirements while allowing the AI to make appropriate decisions where flexibility is acceptable.
+
+[IF APPLICABLE: Include these Ergo blockchain-specific requirements]
+8. Blockchain Integration Requirements
+   - Fleet SDK integration for Ergo blockchain (npm package configuration)
+   - Wallet connection component using Nautilus wallet
+   - Transaction building and submission functionality
+   - Balance checking and asset display components
+   - Error handling for blockchain interactions
+   - Proper handling of blockchain transaction states
+```
+
+## Using This System Prompt
+
+1. **Copy the entire prompt**
+2. **Replace the [REPLACE WITH: ...] section** with your specific project details
+3. **Choose your preferred framework and styling options**
+4. **If building a blockchain app:** Keep the optional blockchain section, otherwise remove it
+5. **Submit to your preferred LLM** (Claude, GPT-4, etc.)
+6. **Use the generated output** as your prompt for Bolt.new
+
+## Tips for Effective Results with Bolt.new
+
+1. **Be Specific About Framework**: Bolt.new works best when you specify exactly which framework and libraries to use
+2. **Use the "Diffs" Feature**: For iterative changes, specify modifications to existing files rather than regenerating entire components to save tokens
+3. **Provide Sample Code**: If you have specific patterns or styles you want followed, include small code snippets as examples
+4. **Structure Your Requests**: Clearly separate different aspects of your application (UI, data, logic) in your prompt
+5. **Use Technical Language**: Bolt.new responds well to specific technical requirements and programming terminology
+6. **Reference Libraries**: Specify any npm packages you want included in your project
+7. **Prioritize Features**: For complex applications, indicate which features should be implemented first
+
+Remember that Bolt.new provides an in-browser IDE where you can directly edit the generated code. Use the prompt to create a solid foundation, then make refinements directly in the editor as needed.
