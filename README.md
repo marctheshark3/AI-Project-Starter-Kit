@@ -21,6 +21,7 @@ This toolkit streamlines the AI project development process by providing:
 - **`Cursor Guide`** - How to use Cursor with the @ tool to reference your PRD during development
 - **`GitHub Setup Guide`** - Step-by-step instructions for setting up GitHub repositories and project boards
 - **`AI Project Starter Guide`** - Complete workflow from ideation to deployment
+- **`Ergo Blockchain API Guide`** - Documentation resources and integration patterns for Ergo blockchain development
 
 ### Visual Resources
 - **`AI Project Workflow Diagrams`** - Mermaid diagrams illustrating project components and workflows
@@ -42,12 +43,19 @@ This toolkit streamlines the AI project development process by providing:
 3. Set up issue templates and branch protection
 4. Add your generated documentation to the repository
 
-### Step 3: Develop with Cursor
+### Step 3: Set Up Cursor with Documentation
 
 1. Install Cursor following the instructions in the `Cursor Guide`
 2. Import your project documentation
-3. Use the @ tool to reference your PRD during development
-4. Follow the examples in the guide for effective prompting
+3. Add recommended documentation resources from the `Ergo Blockchain API Guide` if using blockchain functionality
+4. Use the @ tool to reference documentation during development
+
+### Step 4: Develop and Deploy
+
+1. Use Cursor with @ tool to reference PRD and other documentation
+2. Implement features according to specifications
+3. Create pull requests and track progress through GitHub
+4. Use the generated Docker configurations for deployment
 
 ## 📋 Workflow Overview
 
@@ -100,6 +108,13 @@ The Ergo Blockchain Integration System Prompt provides:
   - Token creation for loyalty or rewards
 - Security considerations for blockchain interactions
 - Option to skip blockchain functionality entirely
+
+The Ergo Blockchain API Guide offers:
+- Documentation resources to add to Cursor
+- Common API endpoints reference
+- Example integration patterns
+- Best practices for Ergo development
+- Step-by-step instructions for adding Ergo documentation to Cursor
 
 ## 🔄 Extensibility
 
